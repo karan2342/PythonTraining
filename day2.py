@@ -14,7 +14,6 @@ from tensorflow.keras.utils import to_categorical
 #preprocessing : Normalization the pixel value to between 0 and 1
 train_images = train_images/255.0
 test_images = test_images/255.0
-
 #Reshape the image to ( 28 , 28, 1) as they are grayscale
 train_images = train_images.reshape((train_images.shape[0], 28 , 28, 1))
 test_images = test_images.reshape((test_images.shape[0], 28, 28, 1))
