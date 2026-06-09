@@ -7,9 +7,9 @@ import tensorflow as tf
 #tensorflow is the deep learning library used it to build and train the CNN
 from tensorflow.keras import datasets, layers, models
 from tensorflow.keras.utils import to_categorical
-
 #load the MNIST dataset
 (train_image, train_labels), (test_images, test_labels) =datasets.mnist.load_data()
+
 
 #preprocessing : Normalization the pixel value to between 0 and 1
 train_images = train_images/255.0
