@@ -35,7 +35,7 @@ while True:
    secret_str = str(secret_num)
 
    count = 0
-   correct = ["_"] * 4
+   correct = ["X"] * 4
 
    # check each digit
    for i in range(4):
